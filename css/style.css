@@ -28,8 +28,8 @@ footer p{
 section#hero{
 	background-image: url("../../../ejercicioExtra/home-slide.jpg");
 	background-size: contain;
-	padding-bottom: 80px;
-	background-attachment: 
+	padding-bottom: 80px; 
+	background-repeat: no-repeat
 }
 #texto-hero{
 	margin-top: 50px;
@@ -50,8 +50,58 @@ section#hero{
 	height: 60px;
 	margin-top: 40px
 }
-#CTA-Products{
+section#CTA-Products{
+	background-image: url("../img/product-parallax.jpg");
+	background-size: cover;
+	padding-bottom: 80px; 
+	background-repeat: no-repeat;
 	text-align: center;
-	padding:200
-		
+	padding:150px;
+	color: white;
+	
+}
+.texto{
+	font-size: 120%;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.titulo-blanco{
+	color: white;
+	font-weight: bold;
+	font-size: 600%	
+}
+.titulo-blanco-peque{
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+}
+#info-producto{
+	margin:40px
+}
+#texto-producto{
+	padding-top: 80px
+	
+}
+#texto-producto h1{
+	color: #282d33;
+}
+.botton-trasparente{
+	border: none;
+    background-color: transparent;
+}
+#CTA-Flexibility{
+	background-image: url("../img/product-parallax-2.jpg");
+	padding: 80px;
+	padding-bottom: 120px;
+	padding-top: 120px
+}
+.botton-trasparente-blanco{
+	border: none;
+    background-color: transparent;
+	color: white;
+	font-weight: bold;
+}
+#clients{
+	padding: 40px;
+	background: #f5f5f5;
 }
