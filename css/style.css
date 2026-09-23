@@ -1,0 +1,57 @@
+:root{
+	--color-contenido:#777;
+	--fondo-header:#f9f9f9;
+	--fondo-footer:#30363d;
+	--color-footer:#999;
+}
+body{
+	font-size: 15px;
+	color: var(--color-contenido);
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	width: 100%;
+	top:0;
+}
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px;
+	color: var(--color-footer);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p{
+	margin-bottom: 0;
+}
+section#hero{
+	background-image: url("../../../ejercicioExtra/home-slide.jpg");
+	background-size: contain;
+	padding-bottom: 80px;
+	background-attachment: 
+}
+#texto-hero{
+	margin-top: 50px;
+	margin: 40px;
+	color: #898989;
+	
+}
+.titulo-negro{
+	color: #282d33;
+	font-weight: bold;
+	font-size: 450%
+}
+.button{
+	border-radius: 40%;
+	background-color: #282d33;
+	color: white;
+	width: 200px;
+	height: 60px;
+	margin-top: 40px
+}
+#CTA-Products{
+	text-align: center;
+	padding:200
+		
+}
