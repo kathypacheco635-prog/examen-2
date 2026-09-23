@@ -27,7 +27,7 @@ footer p{
 }
 section#hero{
 	background-image: url("../../../ejercicioExtra/home-slide.jpg");
-	background-size: contain;
+	background-size: cover;
 	padding-bottom: 80px; 
 	background-repeat: no-repeat
 }
